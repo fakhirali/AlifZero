@@ -1,0 +1,19 @@
+[Event "Casual Rapid game"]
+[Site "https://lichess.org/U6RdK8hT"]
+[Date "2022.12.28"]
+[White "Anonymous"]
+[Black "FinityAlpha"]
+[Result "0-1"]
+[UTCDate "2022.12.28"]
+[UTCTime "19:19:24"]
+[WhiteElo "?"]
+[BlackElo "1644"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Hillbilly Attack"]
+[Termination "Normal"]
+
+1. e4 c6 2. Bc4 a5 3. a4 Nf6 4. d3 d6 5. Nc3 Be6 6. Bf4 d5 7. exd5 cxd5 8. Bxd5 Nxd5 9. Nxd5 Bxd5 10. Ra3 e5 11. Bg3 Bxa3 12. bxa3 O-O 13. Nf3 Nc6 14. c4 Bxf3 15. gxf3 Nd4 16. Bxe5 Re8 17. O-O Rxe5 18. f4 Re8 19. h4 Qxh4 20. f3 Qxf4 21. c5 Qg3+ 22. Kh1 Qh3+ 23. Kg1 Ne2+ 24. Kf2 Qg3# 0-1
+
+
