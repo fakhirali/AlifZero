@@ -25,6 +25,8 @@ def get_positions_moves(game):
     Note: The board positions do not include the first position
     '''
     main_line = game.next()
+    if main_line is None:
+    	return [], []
     positions = []
     moves = []
     while main_line.next():

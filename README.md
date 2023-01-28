@@ -9,9 +9,9 @@ TODO:
 - [x] Simple Encoding of the board state (used [FEN](https://www.chess.com/terms/fen-chess))
 - [x] Make a simple NN
 - [ ] Create a proper work flow
-	- [ ] loading data
+	- [x] loading data
 	- [ ] testing and running models
-	- [ ] lichess bot
+	- [x] lichess bot
 - [ ] refactor and improve NN code (it is terrible atm)
 - [ ] train on [Kasparov](https://en.wikipedia.org/wiki/Garry_Kasparov) games
 - ...
