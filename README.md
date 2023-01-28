@@ -1,6 +1,8 @@
 # Trying to create a chess bot
 ## Learning along the way
 
+### Lichess Bot
+lichess bot [Alif Zero](https://lichess.org/@/Alif0)
 
 TODO:
 - [x] get data
