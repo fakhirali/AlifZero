@@ -21,11 +21,12 @@ def read_data(path):
 
 def get_positions_moves(game):
     '''
-    given a games returns the moves(uci) and board positions(fen)
+    given a game returns the moves(uci) and board positions(fen)
     Note: The board positions do not include the first position
     '''
     main_line = game.next()
     if main_line is None:
+        
     	return [], []
     positions = []
     moves = []
@@ -35,6 +36,16 @@ def get_positions_moves(game):
         main_line = main_line.next()
     return positions, moves
 
+def fen_to_board_str(fen):
+    b = chess.Board.from_epd(fen)[0]    
+    return str(b).replace('\n', '').replace(' ', '')
 
+def make_move(uci):
+    '''
+    returns the two postions of the uci(Universal Chess Interface) format
+    '''
+    pos1 = uci[:2]
+    pos2 = uci[2:4]
+    return (chess.parse_square(pos1), chess.parse_square(pos2))
 
 
