@@ -1,11 +1,10 @@
 # Trying to create a chess bot
-## Learning along the way
 
 ### Lichess Bot
 lichess bot [Alif Zero](https://lichess.org/@/Alif0)
 
 TODO:
-- [x] get data
+- [x] get [data](http://www.pgnmentor.com/files.html)
 - [x] Simple encoding
 - [x] Simple Random Forest
 - [x] Simple Encoding of the board state (used [FEN](https://www.chess.com/terms/fen-chess))
@@ -27,6 +26,17 @@ TODO:
 
 ### Notes:
 The system should be:
-
-Board Position --> System --> Best Move
-
+```mermaid
+graph LR
+	Board_Position --> Model --> Best_Move
+```
+It could also be:
+```mermaid
+graph LR
+	Board_Position --> Model --> Position_Value
+	Position_Value --> Optim_Algo --> Best_Move
+	subgraph Optim_Algo
+		Alpha_Beta_Pruning
+		MCMC
+	end
+```
